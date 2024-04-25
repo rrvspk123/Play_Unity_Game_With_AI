@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Google.Cloud.Functions.Framework</id>
+    <version>2.1.0</version>
+    <title>Google Cloud Functions Framework</title>
+    <authors>Google LLC</authors>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>NuGetIcon.png</icon>
+    <projectUrl>https://github.com/GoogleCloudPlatform/functions-framework-dotnet</projectUrl>
+    <iconUrl>https://cloud.google.com/images/gcp-icon-64x64.png</iconUrl>
+    <description>Google Cloud Functions Framework</description>
+    <copyright>Copyright 2020 Google LLC</copyright>
+    <tags>google cloud functions</tags>
+    <repository type="git" url="https://github.com/GoogleCloudPlatform/functions-framework-dotnet" commit="afaeb105ee354fa3453c925018ae930081e9419d" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="CloudNative.CloudEvents.AspNetCore" version="2.6.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>
